@@ -13,7 +13,14 @@ export default defineConfig({
       '@': resolve(__dirname, './src')
     }
   },
-    server: {
-    port: Number(process.env.VITE_PORT) || 4000,
+  server: {
+    host: true,
+    port: 4000,
+    strictPort: true,
+  },
+  preview: {
+    host: true,
+    port: 4000,
+    strictPort: true,
   },
 })

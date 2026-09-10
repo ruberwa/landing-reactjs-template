@@ -1,9 +1,9 @@
 export const footerContent = {
   company: {
-    name: 'User Login | Signup Screens',
-    description: 'User authentication system built with React, TypeScript, and Tailwind CSS.'
+    name: 'Landing Template',
+    description: 'A React landing page template built with TypeScript and Tailwind CSS.'
   },
-  copyright: '© 2024 User Login | Signup Screens.',
+  copyright: '© 2026 Landing Template.',
   social: {
     twitter: 'Twitter',
     github: 'GitHub',

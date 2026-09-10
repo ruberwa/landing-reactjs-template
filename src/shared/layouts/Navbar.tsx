@@ -12,6 +12,27 @@ const Navbar = () => {
             </Link>
           </div>
 
+          <div className="hidden md:flex items-center space-x-6">
+            <Link
+              to="/"
+              className="text-white hover:text-secondary text-sm font-medium transition-colors"
+            >
+              {navbarContent.navigation.home}
+            </Link>
+            <a
+              href="#features"
+              className="text-white hover:text-secondary text-sm font-medium transition-colors"
+            >
+              {navbarContent.navigation.features}
+            </a>
+            <a
+              href="#about"
+              className="text-white hover:text-secondary text-sm font-medium transition-colors"
+            >
+              {navbarContent.navigation.about}
+            </a>
+          </div>
+
           <div className="md:hidden">
             <button className="text-white hover:text-secondary focus:outline-none focus:text-secondary">
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -30,18 +51,18 @@ const Navbar = () => {
           >
             {navbarContent.navigation.home}
           </Link>
-          <Link 
-            to="/login" 
+          <a 
+            href="#features" 
             className="text-white hover:text-secondary block px-3 py-2 rounded-md text-base font-medium transition-colors"
           >
-            {navbarContent.navigation.login}
-          </Link>
-          <Link 
-            to="/register" 
+            {navbarContent.navigation.features}
+          </a>
+          <a 
+            href="#about" 
             className="text-white hover:text-secondary block px-3 py-2 rounded-md text-base font-medium transition-colors"
           >
-            {navbarContent.navigation.register}
-          </Link>
+            {navbarContent.navigation.about}
+          </a>
         </div>
       </div>
     </nav>

@@ -1,11 +1,11 @@
-# User Auth Screens ReactJS
+# Landing ReactJS Template
 
-A modern, responsive user authentication system built with React, TypeScript, and Tailwind CSS.
+A modern, responsive landing page template built with React, TypeScript, and Tailwind CSS.
 
 ## Features
 
-- **Login & Signup Forms** - Clean, professional authentication screens
-- **Responsive Design** - Works perfectly on desktop and mobile devices
+- **Landing sections** - Hero, features, about, and call-to-action blocks
+- **Responsive Design** - Works on desktop and mobile devices
 - **TypeScript** - Full type safety and better development experience
 - **Tailwind CSS** - Custom Amazon-inspired design system
 - **React Router** - Client-side routing
@@ -32,7 +32,7 @@ A modern, responsive user authentication system built with React, TypeScript, an
 1. Clone the repository
 ```bash
 git clone <repository-url>
-cd user-auth-screens-reactjs
+cd landing-reactjs-template
 ```
 
 2. Install dependencies
@@ -45,19 +45,15 @@ pnpm install
 pnpm dev
 ```
 
-4. Open [http://localhost:5173](http://localhost:5173) in your browser
+4. Open [http://localhost:4000](http://localhost:4000) in your browser
 
 ## Project Structure
 
 ```
 src/
-├── components/auth/          # Authentication components
-│   ├── book/                # Text content and labels
-│   ├── components/forms/     # Login & Signup forms
-│   ├── interfaces/          # TypeScript interfaces
-│   ├── pages/              # Auth page component
-│   ├── utils/              # Form handlers
-│   └── validations/        # Form validation logic
+├── modules/landing/        # Landing page
+│   ├── book/              # Page copy and labels
+│   └── pages/             # Home page
 ├── shared/                 # Shared components
 │   ├── book/              # Shared text content
 │   └── layouts/           # Navbar, Footer, Layout

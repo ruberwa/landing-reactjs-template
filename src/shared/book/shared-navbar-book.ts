@@ -1,8 +1,8 @@
 export const navbarContent = {
-  logo: 'User Login | Signup Screens',
+  logo: 'Landing Template',
   navigation: {
     home: 'Home',
-    login: 'Login',
-    register: 'Register'
+    features: 'Features',
+    about: 'About'
   }
 };
